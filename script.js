@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const app = (
+<div>
 <div className={"star8 gold"}>
     <i clasName={"fa fa-hand-o-up"}></i>
 </div>
@@ -10,6 +11,7 @@ const app = (
 </div>
 <div className={"star8 blue"}>
     <i clasName={"fa fa-flask"}></i>
+</div>
 </div>); 
 
 ReactDOM.render(app, document.getElementById("app"));
