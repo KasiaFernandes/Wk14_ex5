@@ -1,0 +1,67 @@
+
+.star8 {
+	display: inline-block;
+	margin: 2em; 
+	transform: rotate(22deg);
+	transition: background-linear .3s;
+}
+
+.star8:before {
+	background-color: white; 
+	content: ""; /*why is this here?*/
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	transform: rotate(45deg);
+}
+
+.star8, .star8:before, .fa {
+	/* why is it suggested to write "i.fa" in the instructions?*/
+	height: 80px; 
+	width: 80px;
+}
+
+.gold, .gold:before {
+	border: 6px solid #ffc107;
+}
+
+.orange, .orange:before {
+	border: 6px solid #fd7e33;
+}
+
+.blue, .blue:before {
+	border: 6px solid #3fb0ac;
+}
+
+.fa {
+	margin: 0;
+	position: absolute;
+	background-color: white; /* Is "i" element's background "div"?*/
+	font-size: 60px;
+}
+
+.fa:before {
+	transform: rotate(-22deg);
+	position: absolute;
+	margin: 10px;
+}
+
+.gold:hover, .gold:hover:before, .gold:hover .fa {
+	/* Why is it .gold:hover:before and not .gold:before:hover?*/
+	background-color: #ffc107;
+	transition: ease-in-out .3s;
+	color:white;
+}
+
+.orange:hover, .orange:hover:before, .orange:hover .fa {
+	background-color: #fd7e33;
+	transition: ease-in-out .3s;
+	color: white;
+}
+
+.blue:hover, .blue:hover:before, .blue:hover .fa {
+	background-color: #3fb0ac;
+	transition: ease-in-out .3s; 
+	color: white;
+}
+
