@@ -1,6 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
-
 const app = (
 <div>
 <div className={"star8 gold"}>

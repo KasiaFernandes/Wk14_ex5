@@ -1,0 +1,23 @@
+{
+  "name": "W14_ex5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasiaFernandes/Wk14_ex5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KasiaFernandes/Wk14_ex5/issues"
+  },
+  "homepage": "https://github.com/KasiaFernandes/Wk14_ex5#readme",
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  }
+}
